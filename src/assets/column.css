@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 45%;
+    padding: 40px;
+  }
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,34 @@
+p {
+    font-size: small;
+    color: teal;
+
+}
+
+h1 {
+    font-size: 50px; 
+    align-items: center;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+button:hover {
+    background-color: white;
+    color: teal;
+}
